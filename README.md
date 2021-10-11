@@ -148,21 +148,21 @@ oct(24)
 
 ### convert key value pair to dictionary
 ```python
-dict(name='allwin', age=23)
+dict(name='annu', age=23)
 ```
 
 ### convert string to lower case
 ```python
-"Hi my name is Allwin".lower()
-# 'hi my name is allwin'
-"Hi my name is Allwin".casefold()
-# 'hi my name is allwin'
+"Hi my name is Annu".lower()
+# 'hi my name is annu'
+"Hi my name is Annu".casefold()
+# 'hi my name is annu'
 ```
 
 ### convert string to upper case
 ```python
-"hi my name is Allwin".upper()
-# 'HI MY NAME IS ALLWIN'
+"hi my name is Annu".upper()
+# 'HI MY NAME IS ANNU'
 ```
 
 ### convert string to bytes
@@ -326,7 +326,7 @@ while 1:0
 ### check data type
 ```python
 isinstance(2, int)
-isinstance("allwin", str)
+isinstance("annu", str)
 isinstance([3,4,1997], list)
 ```
 
@@ -566,8 +566,8 @@ string.replace('good', 'bad')
 # replace everythin in one go
 
 import re
-re.sub(r'[.+()@]', '', 'A(ll+wi)@n.')
-# 'Allwin'
+re.sub(r'[.+()@]', '', 'A(nnu)@u.')
+# 'Annu'
 ```
 
 ### reverse a list
